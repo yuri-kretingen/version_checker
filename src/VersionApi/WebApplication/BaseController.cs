@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication
 {
-    public class BaseController : ApiController
+    public class BaseController : Controller
     {
         // GET
         public string Version()
@@ -16,6 +16,11 @@ namespace WebApplication
             }
 
             return "0.0.0";
+        }
+
+        public string SetVersion()
+        {
+            return "test";
         }
     }
 }
