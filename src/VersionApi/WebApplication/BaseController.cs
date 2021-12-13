@@ -22,5 +22,10 @@ namespace WebApplication
         {
             return "test";
         }
+
+        public void Test()
+        {
+            
+        }
     }
 }
